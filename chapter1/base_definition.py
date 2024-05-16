@@ -6,6 +6,10 @@ def average(x, y):
     return (x + y) / 2
 
 
+def cube(x):
+    return x * x * x
+
+
 def good_enough(guess, x):
     return abs(square(guess) - x) < 0.001
 
