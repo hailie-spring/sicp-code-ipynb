@@ -35,7 +35,18 @@
 ### [练习1.18](chapter1/1.2.ipynb/#118-迭代求乘算法)
 ### [练习1.19](chapter1/1.2.ipynb/#119-对数步骤求出斐波那契数列)
 ### 1.2.5 最大公约数
+### [练习1.20](chapter1/1.2.ipynb/#120-最大公约数)
 ### 1.2.6 实例：素数检测
+### [素数检测](chapter1/1.2.ipynb/#素数检测)
+### [练习1.21](hapter1/1.2.ipynb/#121-smallest-divisor)
+### [练习1.22](hapter1/1.2.ipynb/#122-runtime)
+### [练习1.23](hapter1/1.2.ipynb/#123-fast-smallest-divisor)
+### [练习1.24](hapter1/1.2.ipynb/#124-runtime-fermat-tet)
+### [练习1.25](hapter1/1.2.ipynb/#125)
+### [练习1.26](hapter1/1.2.ipynb/#126)
+### [练习1.27](hapter1/1.2.ipynb/#127-carmichael-test)
+### [练习1.28](hapter1/1.2.ipynb/#128-miller-rabin-test)
+### [练习](hapter1/1.2.ipynb/#)
 ## 1.3 用高阶函数做抽象
 ### 1.3.1 过程作为参数
 ### 1.3.2 用lambda构造过程
