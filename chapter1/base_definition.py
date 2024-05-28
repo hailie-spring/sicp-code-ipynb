@@ -26,3 +26,25 @@ def sqrt_iter(guess, x):
 
 def sqrt(x):
     return sqrt_iter(1, x)
+
+def next_odd(x):
+    if x % 2 == 0:
+        return x + 1
+    return x + 2
+
+def next_tester(x):
+    return x + 1
+
+def smallest_divisor(n):
+    def find_divisor(n, test_divisor):
+        if square(test_divisor) > n:
+            return n
+        if n % test_divisor == 0:
+            return test_divisor
+        return find_divisor(n, next_tester(test_divisor))
+    return find_divisor(n, 2)
+
+def is_prime(n):
+    if smallest_divisor(n) == n:
+        return True
+    return False

@@ -48,6 +48,12 @@
 ### [练习1.28](chapter1/1.2.ipynb/#128-miller-rabin-test)
 ## 1.3 用高阶函数做抽象
 ### 1.3.1 过程作为参数
+### [过程作为参数](chapter1/1.3.ipynb/#过程作为参数)
+### [练习1.29](chapter1/1.3.ipynb/#129-simpson-rule)
+### [练习1.30](chapter1/1.3.ipynb/#130-sum-iteration)
+### [练习1.31](chapter1/1.3.ipynb/#131-product)
+### [练习1.32](chapter1/1.3.ipynb/#132-accumulate)
+### [练习1.33](chapter1/1.3.ipynb/#133-filter)
 ### 1.3.2 用lambda构造过程
 ### 1.3.3 过程作为一般性的方法
 ### 1.3.4 过程作为返回值
