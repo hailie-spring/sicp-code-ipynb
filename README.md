@@ -145,7 +145,14 @@
 ### [练习2.64](chapter2/2.2.ipynb/#264)
 ### [练习2.65](chapter2/2.2.ipynb/#265)
 ### [练习2.66](chapter2/2.2.ipynb/#266)
-### 2.3.4 实例：Huffman编码树
+### 2.3.4 实例：Huffman编码树 
+### [huffman树](chapter2/2.2.ipynb/#huffman树)
+### [练习2.67](chapter2/2.2.ipynb/#267)
+### [练习2.68](chapter2/2.2.ipynb/#268)
+### [练习2.69](chapter2/2.2.ipynb/#269)
+### [练习2.70](chapter2/2.2.ipynb/#270)
+### [练习2.71](chapter2/2.2.ipynb/#271)
+### [练习2.72](chapter2/2.2.ipynb/#272)
 ## 2.4 抽象数据的多重表示
 ### 2.4.1 复数的表示
 ### 2.4.2 带标志数据
