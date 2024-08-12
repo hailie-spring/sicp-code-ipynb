@@ -97,28 +97,22 @@ def ref_stream(s, n):
     return ref_stream(cdr_stream(s), n - 1)
 
 
-# def map_stream(proc, *args):
-#     params = []
-#     next_stream = []
-#     for arg in args:
-#         if arg is None:
-#             return
-#         if arg.__qualname__.startswith("delay"):
-#             arg = force(arg)
-#         params.append(car_stream(arg))
-#         next_stream.append(cdr_stream(arg))
-#     return cons_stream(proc(*params), delay(map_stream, proc, *next_stream))
-
-
 def map_stream(proc, *stream):
     params = []
-    next_stream = []
+
+    def next_stream():
+        next_stream = []
+        for arg in stream:
+            if arg is None:
+                return
+            next_stream.append(cdr_stream(arg))
+        return next_stream
+
     for arg in stream:
         if arg is None:
             return
         params.append(car_stream(arg))
-        next_stream.append(cdr_stream(arg))
-    return cons_stream(proc(*params), lambda: map_stream(proc, *next_stream))
+    return cons_stream(proc(*params), lambda: map_stream(proc, *next_stream()))
 
 
 def list(*args):
@@ -177,6 +171,7 @@ def display_stream(stream):
 
     text = sub_display_stream(stream)
     print("( " + text + " )")
+
 
 def add_stream(s1, s2):
     return map_stream(lambda x1, x2: x1 + x2, s1, s2)
